@@ -67,7 +67,7 @@ class Router
                         $results = call_user_func_array([$controller, $method], $variables);
 
                         echo Http::responseOk($results);
-                        $logger->error('Response OK');
+                        $logger->info('Response OK');
 
                         return;
                     }
