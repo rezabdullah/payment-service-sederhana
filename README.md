@@ -12,6 +12,12 @@ Import database
   mysql -u [username] -p [nama database] < payment-service-sederhana.sql
 ```
 
+Konfigurasi database terdapat pada file berikut
+
+```bash
+  src/config/database.php
+```
+
 Install depedency via composer
 
 ```bash
